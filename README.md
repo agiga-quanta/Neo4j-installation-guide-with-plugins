@@ -20,8 +20,8 @@ Neo4J Desktop already comes with Neo4J Enterprise Server. Thanks to that, other 
 ### [Graph Data Science:](https://neo4j.com/docs/graph-data-science/2.3/introduction/)
 > The Neo4j Graph Data Science (GDS) library provides efficiently implemented, parallel versions of common graph algorithms, exposed as Cypher procedures. Additionally, GDS includes machine learning pipelines to train predictive supervised models to solve graph problems, such as predicting missing relationships.  
 
-In order to install the 2 plugins APOC and Graph Data Science, select the project from the left column, once selected, and right side column would pop out with 3 options to choose: “Details”, “Plugins”, and “Upgrade”. Select the “Plugins” and click on both APOC and Graph Data Science Library. Once selected, a blue button will show up with the words “Install and Restart”. Select both and wait for restart.
-!(/Guide pictures/Neo4j Plugins install within App.png)
+In order to install the 2 plugins APOC and Graph Data Science, select the project from the left column, once selected, and right side column would pop out with 3 options to choose: “Details”, “Plugins”, and “Upgrade”. Select the “Plugins” and click on both APOC and Graph Data Science Library. Once selected, a blue button will show up with the words “Install and Restart”. Select both and wait for restart.  
+![Neo4J install plugins](/Guide pictures/Neo4j Plugins install within App.png)
 ## 4/ Deploying databases on Neo4J. 
 Neo4j might start with a Movie DBMS by default, but if needed, you can create a new project to run further tests. All server require an 8 character password.
 
