@@ -35,7 +35,14 @@ To deploy any of the preset database, you would enter in the above line “:play
 Then navigate the the project files and run the “load-movies.cypher”. This is a tailored version of the Movie DB for Neo4J. The new tab showed below would have basic guides to navigate and create queries that can present the database or manipulate it.
 ![image](https://user-images.githubusercontent.com/60938608/217303979-595094c2-6ac5-497e-9f5b-e83dda7ffda9.png)
 
-In situations where you would like to deploy your own database, ... 
+From Neo4J browser, you can access certain queries and run small graph results such as:
+> MATCH (actor:Person {name: "Keanu Reeves"})-[:ACTED_IN]->(movies) RETURN movies  
+![image](https://user-images.githubusercontent.com/60938608/217309666-eb26aef4-417d-413c-a0c1-b3892913e9fa.png)
+> You can definitely run more detailed queries such as getting who also acted with Keanu Reeves via below query and the result:
+> MATCH (actor:Person {name: "Keanu Reeves"})-[:ACTED_IN]->(movies)<-[ACTED_IN]-(otheractor:Person) RETURN actor, movies, otheractor
+![image](https://user-images.githubusercontent.com/60938608/217310716-b2496b48-ca39-43e4-b462-70c9cd962625.png)
+This will give you results within the browser, with precise details.
+
 ## 5/ Deploy Bloom
 ### [Bloom:](https://neo4j.com/docs/bloom-user-guide/current/)
 > Neo4j Bloom client comes pre-packaged within Neo4j Desktop. Starting with Bloom 1.3, the Bloom client is enabled and ready to use in Desktop. In Neo4j Desktop 1.2.5 and prior versions, the Bloom client app can be added to any project. Starting with Desktop 1.2.6, you can find and directly run the Bloom app from the “Applications” sidebar drawer. In case you are not seeing the Bloom app there, make sure offline mode is disabled and restart your Desktop. Your Desktop will automatically search for the latest version of Bloom and install it if it is either missing or an older version.  
@@ -49,16 +56,7 @@ A new window will open that looks like this. This Bloom is tied to the project w
 
 Should the right hand side be empty and not showing any data:
 ![image](https://user-images.githubusercontent.com/60938608/217312425-2c0c3585-0786-4a9c-9bcc-aaa2ebac19e2.png)
-then either project has not been loaded into the server, in that case, go back to step 4 and load the database. 
-
-From Neo4J browser, you can access certain queries and run small graph results such as:
-> MATCH (actor:Person {name: "Keanu Reeves"})-[:ACTED_IN]->(movies) RETURN movies  
-![image](https://user-images.githubusercontent.com/60938608/217309666-eb26aef4-417d-413c-a0c1-b3892913e9fa.png)
-> You can definitely run more detailed queries such as getting who also acted with Keanu Reeves via below query and the result:
-> MATCH (actor:Person {name: "Keanu Reeves"})-[:ACTED_IN]->(movies)<-[ACTED_IN]-(otheractor:Person) RETURN actor, movies, otheractor
-![image](https://user-images.githubusercontent.com/60938608/217310716-b2496b48-ca39-43e4-b462-70c9cd962625.png)
-  
-This will give you results within the browser, with precise details.
+then database has not been loaded into the project. In that case, go back to step 4 and load the database. 
   
 Bloom, hoever, focuses on presenting the bigger pictures. To use Bloom with the database, we'll need to "generate a perspective". The perspective is done via the following steps:
 ![image](https://user-images.githubusercontent.com/60938608/217314927-c6fea2d2-18fa-44b5-8dd7-812c93c7de79.png)
