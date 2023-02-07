@@ -2,21 +2,26 @@
 This repository provides a step-by-step instruction to the installation of Neo4J and some plugins.
 
 ## 1/ Download and install Neo4J Desktop: 
-Neo4J Desktop can be downloaded and installed without admin permission. When accessing the link below and begin the download process, however, you will have to enter some informatin to generate a personalized product key. This key will last for 1 year.
-*Noted: Version installed in this guide is 1.5.7*
+Neo4J Desktop can be downloaded and installed without admin permission. When accessing the link below and begin the download process, however, you will have to enter some informatin to generate a personalized product key. This key will last for 1 year.  
+[Neo4J Desktop Download link here](https://neo4j.com/download/)  
+*Noted: Version installed in this guide is 1.5.7*  
 Also the installation will prompt you to either install for your own user account on the computer, or for everyone who uses the computer. The guide will proceed with install for local user only. 
 Once complete, you can tick “Run Neo4j Desktop” to launch, else untick and proceed to “Finish”
 
-## 2/ Deploy Server on Neo4j Desktop without admin: 
-Neo4J Desktop is a tool to use Neo4J Enterprise Server. This means other users can access it through local IP and port when the connection status once server is launched. The main difference between Neo4J Desktop and Neo4J Enterprise are server authentication, sharing and others.... insert more details here.
+## 2/ Deploy Neo4J Enterprise Server on Neo4j Desktop: 
+> Neo4j Desktop is the mission control center for Developers. It's free with registration, and it includes a free development license for Enterprise Edition allowing you to use Neo4j Enterprise on your local desktop for developing applications.   
+  
+Neo4J Desktop already comes with Neo4J Enterprise Server. Thanks to that, other users can access the server through local IP and port when the connection status once server is launched. The main difference between Neo4J Desktop and Neo4J Enterprise are server authentication and sharing. Further details can be accessed [here](https://neo4j.com/licensing/)
 
 ## 3/ Installing plugins: APOC and Graph Data Science 
-APOC:
-> 
-Graph Data Science:
-> 
-In order to install the 2 plugins APOC and Graph Data Science, select the project from the left column, once selected, and right side column would pop out with 3 options to choose: “Details”, “Plugins”, and “Upgrade”. Select the “Plugins” and click on both APOC and Graph Data Science Library. Once selected, a blue button will show up with the words “Install and Restart”. Select both and wait for restart.
+### [APOC:](https://neo4j.com/labs/apoc/)
+> APOC (Awesome Procedures on Cypher) is an add-on library for Neo4j that provides hundreds of procedures and functions adding a lot of useful functionality.Those are custom implementations of certain functionality, that can’t be (easily) expressed in Cypher itself. They are implemented in Java and can be easily deployed into your Neo4j instance, and then be called from Cypher directly.  
 
+### [Graph Data Science:](https://neo4j.com/docs/graph-data-science/2.3/introduction/)
+> The Neo4j Graph Data Science (GDS) library provides efficiently implemented, parallel versions of common graph algorithms, exposed as Cypher procedures. Additionally, GDS includes machine learning pipelines to train predictive supervised models to solve graph problems, such as predicting missing relationships.  
+
+In order to install the 2 plugins APOC and Graph Data Science, select the project from the left column, once selected, and right side column would pop out with 3 options to choose: “Details”, “Plugins”, and “Upgrade”. Select the “Plugins” and click on both APOC and Graph Data Science Library. Once selected, a blue button will show up with the words “Install and Restart”. Select both and wait for restart.
+!(/Guide pictures/Neo4j Plugins install within App.png)
 ## 4/ Deploying databases on Neo4J. 
 Neo4j might start with a Movie DBMS by default, but if needed, you can create a new project to run further tests. All server require an 8 character password.
 
