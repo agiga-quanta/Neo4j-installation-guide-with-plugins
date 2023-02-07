@@ -25,7 +25,7 @@ The main difference between Neo4J Desktop's Enterprise server and Full Neo4J Ent
 In order to install the 2 plugins APOC and Graph Data Science, select the project from the left column, once selected, and right side column would pop out with 3 options to choose: “Details”, “Plugins”, and “Upgrade”. Select the “Plugins” and click on both APOC and Graph Data Science Library. Once selected, a blue button will show up with the words “Install and Restart”. Select both and wait for restart.  
 ![image](https://user-images.githubusercontent.com/60938608/217303624-b1d8af72-8632-45bf-ae58-cb100129029a.png)
 ## 4/ Deploying databases on Neo4J. 
-Neo4j might start with a Movie DBMS by default, but if needed, you can create a new project to run further tests. All server require an 8 character password.
+Neo4j might start with a Movie DBMS by default, but if needed, you can create a new project to run further tests. All project require an 8 character password.
 ![image](https://user-images.githubusercontent.com/60938608/217303851-a2ce6fc0-7ee0-446d-856c-3a523657a875.png)
 
 Once created, the top bar would show Active DBMS. Click Open will run the Neo4j Browser on an internet browser, and you can use neo4j from here.
