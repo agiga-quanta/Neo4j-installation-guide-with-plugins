@@ -48,10 +48,7 @@ In order to install the 2 plugins `APOC` and `Graph Data Science`, select the pr
 
 once selected, and right side column would pop out with 3 options to choose: `Details`, `Plugins`, and `Upgrade`. Select the `Plugins` and click on both `APOC` and `Graph Data Science Library`.   
 ![image](https://user-images.githubusercontent.com/60938608/217352202-01018d59-558a-419d-b0f9-05cf5a44404a.png)  
-![image](https://user-images.githubusercontent.com/60938608/217303624-b1d8af72-8632-45bf-ae58-cb100129029a.png)  
-Once selected, a blue button will show up with the words `Install` or `Install and Restart`. Select both and wait for restart (if button has it).  
-The reason for this is because these plugins is project wide plugins. It affects all databases in that project.
-
+Once selected, a blue button will show up with the words `Install`. Select it and wait for installation.
 
 ## 4/ Deploying databases on Neo4j. 
 Neo4j starts with a Movie DBMS by default, and to present the database, you can access certain queries and run small graph results such as:
