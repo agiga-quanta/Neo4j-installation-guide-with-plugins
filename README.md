@@ -1,12 +1,10 @@
-# Neo4j
-This repository provides a step-by-step instruction to the installation of Neo4j and some plugins.
+# Neo4j 
+This repository provides a step-by-step instruction to the installation of Neo4j version 1.5.7 and some plugin*s.
+[Download here](https://neo4j.com/download/)
 
 ## 1/ Download and install Neo4j Desktop: 
 ### [Neo4j Desktop](https://neo4j.com/docs/desktop-manual/current/)
 > Neo4j Desktop is the mission control center for Developers. It's free with registration, and it includes a free development license for Neo4j Enterprise Edition allowing you to use Neo4j Enterprise on your local desktop for developing applications.  
-> 
-[Neo4j Desktop Download link here](https://neo4j.com/download/)  
-*Noted: Version installed in this guide is 1.5.7*
 Neo4j Desktop can be downloaded and installed without admin permission. When accessing the link above and begin the download process, however, you will have to enter some informatin to generate a personalized product key. This key will last for 1 year.  
 ![image](https://user-images.githubusercontent.com/60938608/217350562-14594681-b912-4cb6-b7ad-2082e3617a4a.png)
   
