@@ -1,5 +1,7 @@
 # Handy guide to installing Neo4j Desktop and some useful plugins
-This repository provides a step-by-step instruction to the installation of Neo4j Desktop and some example of using it. Later on, we'll also be introduced to some useful plugins such as `APOC` - known for its extensive functions and queries to furether utilize Neo4j - and `Graph Data Science` - which contains libraries of graph algorithms and tools for machine learning. Lastly, the guide also expanded to include an instruction to access and use `Neo4j Bloom` - a visualization tool developed for Neo4j.  
+This repository provides a step-by-step instruction to the installation of Neo4j Desktop and some example of using it. Later on, we'll also be introduced to some useful plugins such as `APOC` - known for its extensive functions and queries to furether utilize Neo4j - and `Graph Data Science` - which contains libraries of graph algorithms and tools for machine learning. Lastly, the guide also expanded to include an instruction to access and use `Neo4j Bloom` - a visualization tool developed for Neo4j. 
+
+This guide is also included in a YouTube playlist showing how to download and install `neo4j` Desktop [here](https://youtube.com/playlist?list=PL3KBtMOTv6gM73L33Ie1kHHKp6SXbEpyH)
 
 ## 1/ Download and install `Neo4j Desktop`: 
 ### [Neo4j Desktop](https://neo4j.com/docs/desktop-manual/current/) *([download here](https://neo4j.com/download/))*
